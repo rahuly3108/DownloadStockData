@@ -26,8 +26,6 @@ all_stocks_df = pd.merge(all_stocks_df, nifty50_df, on='Date', how='outer')
 all_stocks_df.to_csv('Stock_data.csv',index=False)
 
 
-# In[ ]:
-
 
 
 
