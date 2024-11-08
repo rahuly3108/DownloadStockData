@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 
 data = pd.read_csv('ind_nifty200list.csv')
 symbols_list = data['Symbol']
-# Calculate the start date as one year ago from today
+## Calculate the start date as one year ago from today
 end_date = datetime.now()
 start_date = end_date - timedelta(days=365)
 all_stocks_df = pd.DataFrame()
