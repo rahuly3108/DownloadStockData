@@ -16,7 +16,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install pandas yfinance
+          pip install pandas==2.2.2 yfinance==0.2.45
 
       - name: Run Python script
         run: python Nifty_data.py
